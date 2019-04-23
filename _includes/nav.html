@@ -1,16 +1,16 @@
 	<nav id="dl-menu" class="dl-menuwrapper" role="navigation">
-		<button class="dl-trigger">Open Menu</button>
+		<button class="dl-trigger">Abrir Menu</button>
 		<ul class="dl-menu">
-			<li><a href="{{ site.url }}/">Home</a></li>
+			<li><a href="{{ site.url }}/">Início</a></li>
 			<li>
-				<a href="#">About</a>
+				<a href="#">Sobre</a>
 				<ul class="dl-submenu">
 					<li>
 						<img src="{{ site.url }}/{{ site.logo }}" alt="{{ site.title }} photo" class="author-photo">
 						<h4>{{ site.title }}</h4>
 						<p>{{ site.description }}</p>
 					</li>
-					<li><a href="{{ site.url }}/about/"><span class="btn btn-inverse">Learn More</span></a></li>
+					<li><a href="{{ site.url }}/about/"><span class="btn btn-inverse">Saiba Mais</span></a></li>
 					{% if site.email %}<li>
                         <a href="mailto:{{ site.email }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-envelope-square"></i> Email</a>
                     </li>{% endif %}
@@ -83,13 +83,19 @@
                     {% if site.hackernews %}<li>
                         <a href="https://news.ycombinator.com/user?id={{ site.hackernews }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-hacker-news"></i> Hacker News</a>
                     </li>{% endif %}
+                    {% if site.telegramgroup %}<li>
+                        <a href="https://t.me/{{ site.telegramgroup }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-users"></i> Telegram</a>
+                    </li>{% endif %}
+                    {% if site.telegramchannel %}<li>
+                        <a href="https://t.me/{{ site.telegramchannel }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-telegram"></i> Telegram</a>
+                    </li>{% endif %}
 				</ul><!-- /.dl-submenu -->
 			</li>
 			<li>
-				<a href="#">Posts</a>
+				<a href="#">Postagens</a>
 				<ul class="dl-submenu">
-					<li><a href="{{ site.url }}/posts/">All Posts</a></li>
-					<li><a href="{{ site.url }}/tags/">All Tags</a></li>
+					<li><a href="{{ site.url }}/posts/">Todas Postagens</a></li>
+					<li><a href="{{ site.url }}/tags/">Todas Marcações</a></li>
 				</ul>
 			</li>
 			{% for link in site.data.navigation %}

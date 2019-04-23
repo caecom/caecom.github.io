@@ -1,12 +1,12 @@
 ---
 layout: page
-title: About the Theme
+title: Sobre o CAECOM
 tags: [about, Jekyll, theme, moon]
-date: 2016-03-21
+date: 2018-04-23
 comments: false
 ---
     
-<center><a href="http://taylantatli.github.io/Moon"><b>Moon</b></a> is a minimal, one column jekyll theme.</center>
+<center>O <b>CAECOM-UNIVASF</b> é o centro acadêmico do curso de Engenharia de Computação da Universidade Federal do Vale do São Francisco.</center>
 
 ## Features
 * Minimal, you can focus on your content
