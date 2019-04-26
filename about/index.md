@@ -1,37 +1,17 @@
 ---
 layout: page
 title: Sobre o CAECOM
-tags: [about, Jekyll, theme, moon]
-date: 2018-04-23
+tags: [about, caecom, sobre, informações]
+date: 2019-04-23
 comments: false
 ---
     
-<center>O <b>CAECOM-UNIVASF</b> é o centro acadêmico do curso de Engenharia de Computação da Universidade Federal do Vale do São Francisco.</center>
+<center>O <b>CAECOM-UNIVASF</b> é uma entidade representativa dos discentes do curso de Engenharia de Computação da Universidade Federal do Vale do São Francisco no campus Juazeiro.</center>
 
-## Features
-* Minimal, you can focus on your content
-* Responsive
-* Disqus integration
-* Syntax highlighting
-* Optional post image
-* Social icons
-* Page for sharing projects
-* Optional background image
-* Simple navigation menu
-* MathJax support
+<br>
+É gerido por representantes discentes membros dos Colegiado de Engenharia de Computação da Univasf (CECOMP), eleitos no âmbito acadêmico a partir de eleições nas quais todos membros do corpo discente do curso tem direito a voto em uma chapa de representantes.
 
-## Preview
+<br>
+O início das atividades do CAECOM se deu por volta de 2012, sendo seu atual estatuto homologado em Assembléia Geral Discente no dia 29 de novembro de 2017.
 
-{% capture images %}
-    https://cloud.githubusercontent.com/assets/754514/14509720/61c61058-01d6-11e6-93ab-0918515ecd56.png
-    https://cloud.githubusercontent.com/assets/754514/14509716/61ac6c8e-01d6-11e6-879f-8308883de790.png
-{% endcapture %}
-{% include gallery images=images caption="Screenshots of Moon Theme" cols=2 %}
-
-See a [live version of Moon](http://taylantatli.github.io/Moon) hosted on GitHub.
-
-## Getting Started
-
-To learn how to install and use this theme check out the [Setup Guide](http://taylantatli.me/Moon/moon-theme/) for more information.
-      
-[Install Moon](https://github.com/TaylanTatli/Moon){: .btn}
+[ESTATUTO DO CAECOM]({{ site.url }}/about/estatuto-2017/){: .btn}
