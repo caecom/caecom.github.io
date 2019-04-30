@@ -148,7 +148,7 @@
   from {
     opacity: 0;
     -webkit-transform: translate3d(2000px, 0, 0);
-    transform: translate3d(2000px, 0, 0);
+            transform: translate3d(2000px, 0, 0);
   }
 
   to {
@@ -268,8 +268,8 @@
 
 
 .slideInFromLeft {
-  -webkit-animation: fadeIn 3s linear 1s, slideInFromLeft 3s linear 1s both;
-          animation: fadeIn 3s linear 1s, slideInFromLeft 3s linear 1s both;
+  -webkit-animation: fadeIn 1.5s linear 0.7s both, slideInFromLeft 1.5s linear 0.7s both;
+          animation: fadeIn 1.5s linear 0.7s both, slideInFromLeft 1.5s linear 0.7s both;
 }
 
 .rotateInAndSlideLeft {
@@ -277,13 +277,13 @@
   margin: 10px;
   position: relative;
   @media all and (max-width: 549px) {
-    -webkit-animation: rotateIn 1s !important;
-            animation: rotateIn 1s !important;
+    -webkit-animation: rotateIn 0.7s !important;
+            animation: rotateIn 0.7s !important;
   }
   @media all and (min-width: 550px) {
     left: 40%;
-    -webkit-animation: rotateIn 1s, slideLeft 3s ease-out 1s forwards;
-            animation: rotateIn 1s, slideLeft 3s ease-out 1s forwards;
+    -webkit-animation: rotateIn 0.7s, slideLeft 1.5s ease-out 0.7s forwards;
+            animation: rotateIn 0.7s, slideLeft 1.5s ease-out 0.7s forwards;
   }
 }
 
