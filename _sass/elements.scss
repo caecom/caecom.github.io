@@ -106,30 +106,50 @@ hr {
 
 // images and figures
 img {
-    display: block;
-	max-width: 100%;
-    width: auto;
-    height: auto;
-    vertical-align: middle;
-    margin-left: auto;
-    margin-right: auto;
-    border: 0;
-    -ms-interpolation-mode: bicubic;
-    image-rendering: optimizeQuality;
+  display: block;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  vertical-align: middle;
+  margin-left: auto;
+  margin-right: auto;
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+  image-rendering: optimizeQuality;
 }
+
 .img-circle {
 	border-radius: 50%;
-	border: 3px solid $white;
-	height: 150px;
-	width: 150px;
+	height: 120px;
+  width: 120px;
+  @media all and (max-width: 660px) {
+    height: 100px !important;
+    width: 100px !important;
+  }
 }
+
+.img-text-logo {
+  height: 100px;
+  @media all and (max-width: 660px) {
+    height: 80px !important;
+  }
+  @media all and (max-width: 549px) {
+    display: none !important;
+  }
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  visibility: hidden;
+  z-index: -1;
+}
+
 .author-photo {
-    background-color: $white;
+  background-color: $comp-color;
 }
 .image-right {
-    float: right;
-    margin-left: 1em;
-    margin-top: 0;
+  float: right;
+  margin-left: 1em;
+  margin-top: 0;
 }
 figure {
   margin: 0;
