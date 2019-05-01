@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Estatuto do CAECOM
-tags: [about, Jekyll, theme, moon]
+tags: [sobre, estatuto]
 date: 2017-11-29
 comments: false
 ---
@@ -36,7 +36,7 @@ Versão original compartilhada e distribuída em arquivo digital com nome "ESTAT
 
 Última atualização no estatuto ocorrida em 29 de novembro de 2017.
 
-Última modificação nessa página ocorrida em 26 de abril de 2019.
+Última modificação nessa página ocorrida em 30 de abril de 2019.
 
 {:.no_toc}
 

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Sobre o CAECOM
-tags: [about, caecom, sobre, informações]
+tags: [sobre, caecom, informações]
 date: 2019-04-23
 comments: false
 ---
@@ -14,4 +14,4 @@ comments: false
 <br>
 O início das atividades do CAECOM se deu por volta de 2012, sendo seu atual estatuto homologado em Assembléia Geral Discente no dia 29 de novembro de 2017.
 
-[ESTATUTO DO CAECOM]({{ site.url }}/about/estatuto-2017/){: .btn}
+[ESTATUTO DO CAECOM]({{ site.url }}/sobre/estatuto-2017/){: .btn}
