@@ -25,6 +25,8 @@ mathjax:            true
 sass:
   sass_dir:         _sass
   style:            compressed
+font-awesome:
+  assets: true
 
 # Comments
 disqus_shortname:   taylantatli
@@ -65,12 +67,13 @@ github-url:         caecom
 telegramgroup:     CAECOM_UNIVASF
 telegramchannel:   CAECOM_NEWS
 
-# Gems
-gems:
+# Plugins - (old Gems)
+plugins:
   - jekyll-mentions
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-gist
+  - jekyll-font-awesome-sass
 
 jekyll-mentions:
     base_url: https://github.com
