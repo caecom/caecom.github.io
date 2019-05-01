@@ -15,3 +15,4 @@ comments: false
 O início das atividades do CAECOM se deu por volta de 2012, sendo seu atual estatuto homologado em Assembléia Geral Discente no dia 29 de novembro de 2017.
 
 [ESTATUTO DO CAECOM]({{ site.url }}/sobre/estatuto-2017/){: .btn}
+[GESTÕES]({{ site.url }}/sobre/gestões/){: .btn}
