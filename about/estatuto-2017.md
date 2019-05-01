@@ -21,7 +21,7 @@ comments: false
     }
 
     div > ol { list-style-type: none }
-    
+
     div > ol ol { list-style-type: upper-roman; }
 
     div > ol ol ol { list-style-type: lower-roman; }  
@@ -155,5 +155,5 @@ Versão original compartilhada e distribuída em arquivo digital com nome "ESTAT
 24. Os cargos eletivos para a Diretoria Executiva são exclusivos dos membros efetivos, que estejam em pleno gozo dos seus direitos.
 25. O edital de convocação da eleição deverá ser expedido pela Comissão Eleitoral e publicado com, no mínimo, 7 (sete) dias letivos de antecedência das eleições.
 26. Será considerada eleita a chapa que obtiver o maior número de votos.
-    <br> 
+    <br>
     Parágrafo único. em caso de chapa única, apenas será eleita se obtiver maioria simples (cinquenta por cento mais um) dos votos.
