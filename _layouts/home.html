@@ -15,37 +15,43 @@ layout: compress
     <header class="header flex" role="banner">
         <div class="container animated fadeIn">
             <div class="row">
-                    <h3 class="title">
-                        <a class="zoombtn" href="{{ site.url }}">
-                            <img src="{{ site.logo }}" class="img-circle zoombtn rotateInAndSlideLeft" alt="C">
-                            <img src="{{ site.logo_text }}" class="img-text-logo slideInFromLeft" alt="AECOM">
-                            <!-- <p class="animated slideInFromLeft" style="font-size:5.2rem;font-weight:300">AECOM</p> -->
-                        </a>
-                    </h3>
-                    <h3 class="title">
-                        <a class="zoombtn" href="{{ site.url }}">
-                        	<p style="font-size:1.2rem;font-weight:300">{{ site.title }}</p>
-			            </a>
-                    </h3>
-                    <hr class="hr-line">
-                    <h3 class="title">
-                        <a href="{{ site.url }}">
-                        	<p style="font-size:1rem;font-weight:300">{{ site.bio }}</p>
-			            </a>
-                    </h3>
-                    {% include social-links.html %}
-                  <hr class="hr-line">
-                  <h3 class="title">
-                         <a class="btn zoombtn" href="{{ site.url }}/sobre">
-                         Sobre
-                         </a>
-                         <a class="btn zoombtn" href="{{ site.url }}/posts">
-                         Postagens
-                         </a>
-                         <a class="btn zoombtn" href="{{ site.url }}/projects">
-                         Projetos
-                         </a>
-                 </h3>
+                <h3 class="title">
+                    <a class="zoombtn" href="{{ site.url }}">
+                        <img src="{{ site.logo }}" class="img-circle zoombtn rotateInAndSlideLeft" alt="C">
+                        <img src="{{ site.logo_text }}" class="img-text-logo slideInFromLeft" alt="AECOM">
+                        <!-- <p class="animated slideInFromLeft" style="font-size:5.2rem;font-weight:300">AECOM</p> -->
+                    </a>
+                </h3>
+                <h3 class="title">
+                    <a class="zoombtn" href="{{ site.url }}">
+                        <p style="font-size:1.2rem;font-weight:300">{{ site.title }}</p>
+                    </a>
+                </h3>
+                <hr class="hr-line">
+                <h3 class="title">
+                    <a href="{{ site.url }}">
+                        <p style="font-size:1rem;font-weight:300">{{ site.bio }}</p>
+                    </a>
+                </h3>
+                {% include social-links.html %}
+                <hr class="hr-line">
+                <h3 class="title">
+                    <a class="btn zoombtn" href="{{ site.url }}/sobre">
+                        <i class="fas fa-landmark"></i> Sobre
+                    </a>
+                    <a class="btn zoombtn" href="{{ site.url }}/posts">
+                        <i class="fas fa-blog"></i> Postagens
+                    </a>
+                    <a class="btn zoombtn" href="{{ site.url }}/guias">
+                        <i class="fas fa-book"></i> Guias
+                    </a>
+                    <a class="btn zoombtn" href="{{ site.url }}/links">
+                        <i class="far fa-bookmark"></i> Links
+                    </a>
+                    <a class="btn zoombtn" href="{{ site.url }}/projects">
+                        Projetos
+                    </a>
+                </h3>
             </div>
         </div>
     </header>

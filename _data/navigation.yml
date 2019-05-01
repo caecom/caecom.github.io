@@ -1,4 +1,11 @@
 # Site navigation links
+- title: Guias
+  url: /guias/
+
+- title: Links
+  url: /links/
 
 - title: Projetos
-  url: /projects/
+  url: /projetos/
+
+

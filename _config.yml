@@ -12,7 +12,7 @@ locale:             pt_BR
 url:                # https://caecom.github.io/
 
 # Jekyll
-permalink:          /:title/
+permalink:          /:categories/:title/
 markdown:           kramdown
 highlighter:        rouge
 kramdown:
@@ -74,6 +74,14 @@ plugins:
 
 jekyll-mentions:
     base_url: https://github.com
+  
+# Collections
+collections:
+  guias:
+    output: true
+    permalink: /:collection/:title/
+  links:
+    link: true
 
 # Exclude list
 exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile]

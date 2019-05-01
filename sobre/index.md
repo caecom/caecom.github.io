@@ -5,7 +5,7 @@ tags: [sobre, caecom, informações]
 date: 2019-04-23
 comments: false
 ---
-    
+
 <center>O <b>CAECOM-UNIVASF</b> é uma entidade representativa dos discentes do curso de Engenharia de Computação da Universidade Federal do Vale do São Francisco no campus Juazeiro.</center>
 
 <br>
