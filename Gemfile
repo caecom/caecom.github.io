@@ -5,6 +5,4 @@ gem "jekyll-sitemap"
 gem "jekyll-gist"
 gem 'jekyll-mentions'
 gem 'jekyll-feed'
-
-gem 'jekyll-font-awesome-sass'
-gem 'font-awesome-sass', '~> 5.8.1'
+gem 'github-pages', group: :jekyll_plugins

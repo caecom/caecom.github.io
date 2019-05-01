@@ -25,11 +25,9 @@ mathjax:            true
 sass:
   sass_dir:         _sass
   style:            compressed
-font-awesome:
-  assets: true
 
 # Comments
-disqus_shortname:   taylantatli
+# disqus_shortname:   taylantatli
 
 # Social
 # if you don't have any of social below, comment the line.
@@ -73,7 +71,6 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-gist
-  - jekyll-font-awesome-sass
 
 jekyll-mentions:
     base_url: https://github.com
