@@ -1,0 +1,44 @@
+- institucional:
+  category_name: Institucional
+  subcategories:
+    - geral:
+      subcategory_name: Geral
+      links:
+        - portal_univasf:
+          title: Portal da UNIVASF
+          description: A ton of text to test readability.
+          url: http://portais.univasf.edu.br
+
+    - cecomp:
+      subcategory_name: CECOMP
+      links:
+        - site_cecomp:
+          title: Site do CECOMP
+          description: A ton of text to test readability.
+          url: http://www.cecomp.univasf.edu.br  
+
+        - site_cecomp_programas_disciplinas:
+          title: Programas das Disciplinas
+          description: A ton of text to test readability.
+          url: https://drive.google.com/open?id=1MU2ucAYDHoNX-DuT2EY69eDxYVJq-HHD
+
+        - site_cecomp_requerimentos_online:
+          title: Formulário de Requerimento Online
+          description: A ton of text to test readability.
+          url: https://docs.google.com/forms/d/e/1FAIpQLSeYsDHOQh1j5eyclZWQkY3tsXih7XLZ6FJ3sf5k9DaOjo31_g/viewform?c=0&w=1
+
+- conhecimento:
+  category_name: Conhecimento
+  subcategories:
+    - livre:
+      subcategory_name: Livre
+      links:
+        - libgen:
+          title: Library Genesis
+          description: A ton of text to test readability.
+          url: http://gen.lib.rus.ec/
+
+        - scihub:
+          title: Sci-Hub
+          description: A ton of text to test readability.
+          url: http://sci-hub.tw/
