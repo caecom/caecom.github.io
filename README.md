@@ -1,37 +1,24 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/caecom/caecom.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+# Página do CAECOM
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Esta é a página do CAECOM no GitHub Pages, acessível pelo [link público](https://caecom.github.io/) no domínio github.io.
 
-### Markdown
+Qualquer commit no branch master deste repositório vai fazer com que o GitHub Pages rode o [Jekyll](https://jekyllrb.com/) para reconstruir as páginas do site a partir do conteúdo nos arquivos em Markdown, HTML e SCSS.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Markdown
 
-```markdown
-Syntax highlighted code block
+Markdown é uma sintaxe leve e de fácil uso para estilizar a escrita, inclui diversas convensões simples de aprender.
 
-# Header 1
-## Header 2
-### Header 3
+Para detalhes veja o guia sobre [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/) ou o [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
 
-- Bulleted
-- List
+## Tema do Jekyll
 
-1. Numbered
-2. List
+As páginas feitas em Jekyll utilizam o layout e os estilos do tema selecionado, neste repositório se optou pelo tema Moon, com créditos dados ao autor [Taylan Tatlı](https://github.com/TaylanTatli).
 
-**Bold** and _Italic_ and `Code` text
+Para detalhes sobre o tema Moon, veja o [repositório dele no GitHub](https://github.com/TaylanTatli/Moon).
 
-[Link](url) and ![Image](src)
-```
+Foram feitas personalizações e atualizações em cima do tema original.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## Contribuições
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/caecom/caecom.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Qualquer pessoa pode contribuir com este repositório, basta enviar uma Pull Request que será revisada por algum membro do CAECOM com acesso ao repositório.
