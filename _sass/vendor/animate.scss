@@ -282,8 +282,8 @@
 
 
 .slideInFromLeft {
-  -webkit-animation: fadeIn 1.5s linear 0.7s both, slideInFromLeft 1.5s linear 0.7s both;
-          animation: fadeIn 1.5s linear 0.7s both, slideInFromLeft 1.5s linear 0.7s both;
+  -webkit-animation: fadeIn 1s linear 0.5s both, slideInFromLeft 1s linear 0.5s both;
+          animation: fadeIn 1s linear 0.5s both, slideInFromLeft 1s linear 0.5s both;
 }
 
 .rotateInAndSlideLeft {
@@ -291,13 +291,13 @@
   margin: 10px;
   position: relative;
   @media all and (max-width: 549px) {
-    -webkit-animation: rotateIn 0.7s !important;
-            animation: rotateIn 0.7s !important;
+    -webkit-animation: rotateIn 0.5s !important;
+            animation: rotateIn 0.5s !important;
   }
   @media all and (min-width: 550px) {
     left: 40%;
-    -webkit-animation: rotateIn 0.7s, slideLeft 1.5s ease-out 0.7s forwards;
-            animation: rotateIn 0.7s, slideLeft 1.5s ease-out 0.7s forwards;
+    -webkit-animation: rotateIn 0.5s, slideLeft 1s ease-out 0.5s forwards;
+            animation: rotateIn 0.5s, slideLeft 1s ease-out 0.5s forwards;
   }
 }
 
