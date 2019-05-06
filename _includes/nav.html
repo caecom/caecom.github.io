@@ -1,9 +1,9 @@
 	<nav id="dl-menu" class="dl-menuwrapper" role="navigation">
 		<button class="dl-trigger">Abrir Menu</button>
 		<ul class="dl-menu">
-			<li><a href="{{ site.url }}/">Início</a></li>
+			<li><a href="{{ site.url }}/"><i class="fas fa-home"></i> Início</a></li>
 			<li>
-				<a href="#">Sobre</a>
+				<a href="#"><i class="fas fa-landmark"></i> Sobre</a>
 				<ul class="dl-submenu">
 					<li>
 						<img src="{{ site.url }}/{{ site.logo }}" alt="{{ site.title }} photo" class="author-photo">
@@ -92,7 +92,7 @@
 				</ul><!-- /.dl-submenu -->
 			</li>
 			<li>
-				<a href="#">Postagens</a>
+				<a href="#"><i class="fas fa-blog"></i> Postagens</a>
 				<ul class="dl-submenu">
 					<li><a href="{{ site.url }}/posts/">Todas Postagens</a></li>
 					<li><a href="{{ site.url }}/tags/">Todas Marcações</a></li>
@@ -104,7 +104,11 @@
 		        {% else %}
 		        {% assign domain = site.url %}
 		    {% endif %}
-		    <li><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank" rel="noopener noreferrer"{% endif %}>{{ link.title }}</a></li>
+		    <li>
+                <a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank" rel="noopener noreferrer"{% endif %}>
+                <i class="{{ link.icon }}"></i> {{ link.title }}
+                </a>
+            </li>
 		  {% endfor %}
 		</ul><!-- /.dl-menu -->
 	</nav><!-- /.dl-menuwrapper -->

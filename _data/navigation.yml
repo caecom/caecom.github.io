@@ -1,11 +1,14 @@
 # Site navigation links
 - title: Guias
   url: /guias/
+  icon: fas fa-book
 
 - title: Links
   url: /links/
+  icon: far fa-bookmark
 
 - title: Projetos
   url: /projetos/
+  icon: fas fa-project-diagram
 
 
