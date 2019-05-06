@@ -10,7 +10,7 @@ background:         'assets/img/placeholders/cup-of-coffee-1280537_1920.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             pt_BR
 url:                # https://caecom.github.io/
-maintenance:        true   # Mudar para true se quiser exibir mensagem de manutenção na página inicial.
+maintena:           true   # Mudar para true se quiser exibir mensagem de manutenção na página inicial.
 
 # Jekyll
 permalink:          /:categories/:title/
