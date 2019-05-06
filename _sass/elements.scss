@@ -120,20 +120,21 @@ img {
 
 .img-circle {
 	border-radius: 50%;
-	height: 120px;
-  width: 120px;
-  @media all and (max-width: 660px) {
+	max-height: 120px;
+  max-width: 120px;
+  height: auto;
+  width: 15vw;
+  @media #{$small} {
     height: 100px !important;
     width: 100px !important;
   }
 }
 
 .img-text-logo {
-  height: 100px;
-  @media all and (max-width: 660px) {
-    height: 80px !important;
-  }
-  @media all and (max-width: 549px) {
+  height: auto;
+  width: 40vw;
+  max-width: 350px;
+  @media #{$small} {
     display: none !important;
   }
   display: inline-block;
@@ -142,6 +143,33 @@ img {
   visibility: hidden;
   z-index: -1;
 }
+
+.no-display-when-small {
+  @media #{$small} {
+    display: none !important;
+  }
+}
+
+.no-display-when-medium {
+  @media #{$medium} {
+    display: none !important;
+  }
+}
+
+.no-display-when-large {
+  @media #{$large} {
+    display: none !important;
+  }
+}
+
+.no-display-when-notsmall {
+  @media #{$notsmall} {
+    display: none !important;
+  }
+}
+
+
+
 
 .author-photo {
   background-color: $comp-color;

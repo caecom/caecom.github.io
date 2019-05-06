@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Sobre o CAECOM
-tags: [sobre, caecom, informações]
+tags: [caecom, informações]
 date: 2019-04-23
 comments: false
 ---

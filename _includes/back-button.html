@@ -1,0 +1,13 @@
+{% if page.tags contains 'projetos' %}
+<a class="btn zoombtn" href="{{site.url}}/projetos/">
+{% elsif page.tags contains 'sobre' %}
+<a class="btn zoombtn" href="{{site.url}}/sobre/">
+{% elsif page.collection == 'guias' %}
+<a class="btn zoombtn" href="{{site.url}}/guias/">
+{% elsif page.collection == 'posts' %}
+<a class="btn zoombtn" href="{{site.url}}/posts/">
+{% else %}
+<a class="btn zoombtn" href="{{site.url}}">
+{% endif %}
+    <i class="fa fa-chevron-left"></i>
+</a>
