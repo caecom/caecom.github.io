@@ -3,6 +3,7 @@ layout: post
 title:  "Convocação Assembleia Geral Maio 2019"
 date:   2019-05-19
 excerpt: "Convocação para a Assembleia Geral Ordinária do CAECOM-UNIVASF"
+category: assembleia
 tag:
 - convocação 
 - assembleia
@@ -67,4 +68,4 @@ Todas as propostas deverão ser apresentadas no momento de discussão da pauta e
 
 ### Regras de Convivência dos Laboratórios do CECOMP
 
-Serão retomadas as Recomendações de Convivência aprovadas na Assembleia Ordinária de Julho de 2018 para nova concientização entre os discentes e definição do quadro com essas recomendações para ser afixado nos meios internos dos laboratórios.
+Serão retomadas as Recomendações de Convivência aprovadas na Assembleia Ordinária de Julho de 2018 para nova conscientização entre os discentes e definição do quadro com essas recomendações para ser afixado nos meios internos dos laboratórios.
