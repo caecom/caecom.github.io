@@ -10,7 +10,8 @@ background:         'assets/img/placeholders/cup-of-coffee-1280537_1920.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             pt_BR
 url:                # https://caecom.github.io/
-maintena:           true   # Mudar para true se quiser exibir mensagem de manutenção na página inicial.
+maintena:           false   # Mudar para true se quiser exibir mensagem de manutenção na página inicial.
+featured:           true    # Exibir última postagem na página inicial
 
 # Jekyll
 permalink:          /:categories/:title/
@@ -39,32 +40,7 @@ sass:
   #ad-client:
   #ad-slot:
 #bing-verify:
-email:              univasf.caecom@gmail.com
-#twitter:            username
-facebook:           groups/CAECOM
-github-url:         caecom
-#stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
-#linkedin:          username
-#xing:              username
-#instagram:          username
-#lastfm:            username
-#tumblr:            username
-#medium:            '@username'
-#pinterest:         username
-#foursquare:        username
-#steam:              username
-#dribbble:          username
-#youtube:           username
-#youtube-channel:   channel
-#soundcloud:        username
-#weibo:             username
-#flickr:            username
-#codepen:           username
-#keybase:           username
-#xmpp:              username@server.com
-#hackernews:        username
-telegramgroup:     CAECOM_UNIVASF
-telegramchannel:   CAECOM_NEWS
+# Os links sociais foram movidos para _data/social.yml
 
 # Plugins - (old Gems)
 plugins:

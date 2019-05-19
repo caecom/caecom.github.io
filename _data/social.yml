@@ -1,0 +1,64 @@
+# Social
+# if you don't have any of social below, comment the line.
+#google:
+  #plus:            #username
+  #analytics:
+  #verify:
+  #ad-client:
+  #ad-slot:
+#bing-verify:
+- email:
+  title: Email
+  description: Email
+  url: mailto:univasf.caecom@gmail.com
+  icon: fa fa-fw fa-envelope-square
+# - twitter:
+#   title: Twitter
+#   description: Twitter
+#   url: https://twitter.com/username
+#   icon: fab fa-fw fa-twitter-square
+# - facebook: 
+#   title: Facebook
+#   description: Facebook
+#   url: https://facebook.com/username
+#   icon: fab fa-fw fa-facebook-square
+- facebookgroup:      
+  title: Facebook
+  description: Grupo do Facebook
+  url: https://facebook.com/groups/CAECOM
+  icon: fab fa-fw fa-facebook-square
+- github-url:
+  title: GitHub
+  description: Conta do GitHub
+  url: https://github.com/caecom
+  icon: fab fa-fw fa-github
+#stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
+#linkedin:          username
+#xing:              username
+#instagram:          username
+#lastfm:            username
+#tumblr:            username
+#medium:            '@username'
+#pinterest:         username
+#foursquare:        username
+#steam:              username
+#dribbble:          username
+#youtube:           username
+#youtube-channel:   channel
+#soundcloud:        username
+#weibo:             username
+#flickr:            username
+#codepen:           username
+#keybase:           username
+#xmpp:              username@server.com
+#hackernews:        username
+- telegramgroup:
+  title: Telegram
+  description: Grupo do Telegram
+  url: https://t.me/CAECOM_UNIVASF
+  icon: fa fa-fw fa-users
+- telegramchannel:
+  title: Telegram
+  description: Canal do Telegram
+  url: https://t.me/CAECOM_NEWS
+  icon: fab fa-fw fa-telegram

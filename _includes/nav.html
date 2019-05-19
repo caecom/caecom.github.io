@@ -1,25 +1,23 @@
 	<nav id="dl-menu" class="dl-menuwrapper" role="navigation">
 		<button class="dl-trigger">Abrir Menu</button>
 		<ul class="dl-menu">
-			<li><a href="{{ site.url }}/"><i class="fas fa-home"></i> Início</a></li>
+			<li><a href="{{ site.url }}/"><i class="fas fa-fw fa-home"></i> Início</a></li>
 			<li>
-				<a href="#"><i class="fas fa-landmark"></i> Sobre</a>
+				<a href="#"><i class="fas fa-fw fa-landmark"></i> Sobre</a>
 				<ul class="dl-submenu">
 					<li>
 						<img src="{{ site.url }}/{{ site.logo }}" alt="{{ site.title }} photo" class="author-photo">
 						<h4>{{ site.title }}</h4>
 						<p>{{ site.description }}</p>
 					</li>
-					<li><a href="{{ site.url }}/sobre/"><span class="btn btn-inverse">Saiba Mais</span></a></li>
-					{% if site.email %}<li>
-                        <a href="mailto:{{ site.email }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-envelope-square"></i> Email</a>
-                    </li>{% endif %}
-                    {% if site.twitter %}<li>
-                        <a href="http://twitter.com/{{ site.twitter }}" target="_blank" rel="noopener noreferrer"><i class="fab fa-fw fa-twitter-square"></i> Twitter</a>
-                    </li>{% endif %}
-                    {% if site.facebook %}<li>
-                        <a href="http://facebook.com/{{ site.facebook }}" target="_blank" rel="noopener noreferrer"><i class="fab fa-fw fa-facebook-square"></i> Facebook</a>
-                    </li>{% endif %}
+                    <li><a href="{{ site.url }}/sobre/"><span class="btn btn-inverse">Saiba Mais</span></a></li>
+                    {% for social in site.data.social %}
+                    <li>
+                        <a href="{{ social.url }}" title="{{ social.title }}" target="_blank" rel="noopener noreferrer">
+                            <i class="{{ social.icon }}" alt="{{ social.title }}"></i> {{ social.title }}
+                        </a>
+                    </li>
+                    {% endfor %}
                     {% if site.google.plus %}<li>
                         <a href="http://plus.google.com/+{{ site.google.plus }}" target="_blank" rel="noopener noreferrer"><i class="fab fa-fw fa-google-plus-square"></i> Google+</a>
                     </li>{% endif %}
@@ -34,9 +32,6 @@
                     </li>{% endif %}
                     {% if site.tumblr %}<li>
                         <a href="http://{{ site.tumblr }}.tumblr.com" target="_blank" rel="noopener noreferrer"><i class="fab fa-fw fa-tumblr-square"></i> Tumblr</a>
-                    </li>{% endif %}
-                    {% if site.github-url %}<li>
-                        <a href="http://github.com/{{ site.github-url }}" target="_blank" rel="noopener noreferrer"><i class="fab fa-fw fa-github"></i> GitHub</a>
                     </li>{% endif %}
                     {% if site.stackoverflow %}<li>
                         <a href="http://stackoverflow.com/users/{{ site.stackoverflow }}" target="_blank" rel="noopener noreferrer"><i class="fab fa-fw fa-stack-overflow"></i> StackOverflow</a>
@@ -83,16 +78,10 @@
                     {% if site.hackernews %}<li>
                         <a href="https://news.ycombinator.com/user?id={{ site.hackernews }}" target="_blank" rel="noopener noreferrer"><i class="fab fa-fw fa-hacker-news"></i> Hacker News</a>
                     </li>{% endif %}
-                    {% if site.telegramgroup %}<li>
-                        <a href="https://t.me/{{ site.telegramgroup }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-users"></i> Telegram</a>
-                    </li>{% endif %}
-                    {% if site.telegramchannel %}<li>
-                        <a href="https://t.me/{{ site.telegramchannel }}" target="_blank" rel="noopener noreferrer"><i class="fab fa-fw fa-telegram"></i> Telegram</a>
-                    </li>{% endif %}
 				</ul><!-- /.dl-submenu -->
 			</li>
 			<li>
-				<a href="#"><i class="fas fa-blog"></i> Postagens</a>
+				<a href="#"><i class="fas fa-fw fa-blog"></i> Postagens</a>
 				<ul class="dl-submenu">
 					<li><a href="{{ site.url }}/posts/">Todas Postagens</a></li>
 					<li><a href="{{ site.url }}/tags/">Todas Marcações</a></li>
@@ -109,6 +98,6 @@
                 <i class="{{ link.icon }}"></i> {{ link.title }}
                 </a>
             </li>
-		  {% endfor %}
+		    {% endfor %}
 		</ul><!-- /.dl-menu -->
 	</nav><!-- /.dl-menuwrapper -->
