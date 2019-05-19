@@ -37,8 +37,12 @@ layout: compress
                 {% if site.maintena %}
                 {% include maintenance.html %}
                 {% endif %}
-                
+              
                 {% include home-links.html %}
+                
+                {% if site.featured %}
+                {% include featured.html %}
+                {% endif %}
 
                 {% include social-links.html %}
             </div>

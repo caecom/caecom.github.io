@@ -1,0 +1,19 @@
+<hr class="hr-line">
+<h3 class="title" style="font-size:1.3rem;">
+    <i class="fas fa-fw fa-bullhorn"></i> Última Postagem
+</h3>
+
+<div class="post-list">
+    {% for post in site.posts %} 
+        {% if post.project == null %}
+    <ul>
+        <li class="wow fadeInLeft" data-wow-duration="1.5s">
+            <a class="zoombtn" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+            <p>{{ post.excerpt }}</p>
+            <a href="{{ site.url }}{{ post.url }}" class="btn zoombtn">Leia Mais</a>
+        </li>
+    </ul>
+        {% break %}
+        {% endif %}
+    {% endfor %}
+</div>
