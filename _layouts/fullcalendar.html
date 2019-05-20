@@ -1,0 +1,88 @@
+---
+layout: fullcalendar
+---
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8' />
+
+    <link href='../assets/js/fullcalendar-4.1.0/core/main.css' rel='stylesheet' />
+    <link href='../assets/js/fullcalendar-4.1.0/daygrid/main.css' rel='stylesheet' />
+    <link href='../assets/js/fullcalendar-4.1.0/list/main.css' rel='stylesheet' />
+
+    <script src='../assets/js/fullcalendar-4.1.0/core/main.js'></script>
+    <script src='../assets/js/fullcalendar-4.1.0/daygrid/main.js'></script>
+    <script src='../assets/js/fullcalendar-4.1.0/list/main.js'></script>
+    <script src='../assets/js/fullcalendar-4.1.0/google-calendar/main.js'></script>
+
+
+
+    <!-- <link href='../assets/js/fullcalendar-4.1.0/core/main.css' rel='stylesheet' />
+    <link href='../assets/js/fullcalendar-4.1.0/google-calendar/main.css' rel='stylesheet' /> -->
+
+    <script>
+        // var calendar = new FullCalendar.Calendar(calendarEl, {
+        // plugins: [ 'googleCalendar' ]
+        // });
+    //   document.addEventListener('DOMContentLoaded', function() {
+    //     var calendarEl = document.getElementById('calendar');
+
+    //     var calendar = new FullCalendar.Calendar(calendarEl, {
+    //       plugins: [ 'dayGrid' ]
+    //     });
+
+    //     calendar.render();
+    //   });
+        // let calendar = new Calendar(calendarEl, {
+        //     plugins: [ googleCalendarPlugin ],
+        //     googleCalendarApiKey: 'AIzaSyBJYZ8DHdMA5hEaHv-s5GPWT_2xwLIdx5o',
+        //     events: {
+        //         googleCalendarId: 'd6merp395njl40f3kiqjv8r478@group.calendar.google.com'
+        //     }
+        // });
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            var calendarEl = document.getElementById('calendar');
+
+            var calendar = new FullCalendar.Calendar(calendarEl, {
+                plugins: [ 'list', 'googleCalendar', 'dayGrid' ],
+                header: {
+                    left: 'prev,next today',
+                    center: 'title',
+                    right: 'dayGridMonth,listWeek'
+                },
+
+                defaultView: 'listWeek',
+
+                googleCalendarApiKey: 'AIzaSyBJYZ8DHdMA5hEaHv-s5GPWT_2xwLIdx5o',
+                eventSources: [
+                    {   
+                        className: 'CAECOM',
+                        googleCalendarId: 'hqh6qmc9ubcjbeetqdmp2g69m0@group.calendar.google.com'
+                    },
+                    {   
+                        className: 'Acadêmico UNIVASF',
+                        googleCalendarId: '0eenpro123a7j0blhj1t52cuns@group.calendar.google.com'
+                    },
+                    {
+                        className: 'Ser Tão Pé Quente',
+                        googleCalendarId: 'd6merp395njl40f3kiqjv8r478@group.calendar.google.com'
+                    }
+                    // {
+                    // googleCalendarId: 'efgh5678@group.calendar.google.com',
+                    // className: 'nice-event'
+                    // }
+                ]
+            });
+            calendar.setOption('locale', 'pt-br');
+            calendar.render();
+        });
+
+    </script>
+  </head>
+  <body>
+
+    <div id='calendar'></div>
+
+  </body>
+</html>
