@@ -1,0 +1,23 @@
+<style type="text/css">
+    counter-reset: elementcounter;
+    /* ol { list-style-type: decimal; } */
+  
+    ol, li {
+        list-style-type: none;
+    }
+
+    div > ol > li:before {
+        content: "Art. " counter(elementcounter) "º. ";
+        counter-increment: elementcounter;
+        font-weight: bold;
+    }
+
+    div > ol { list-style-type: none }
+
+    div > ol ol { list-style-type: upper-roman; }
+
+    div > ol ol ol { list-style-type: lower-roman; }  
+    div {
+        counter-reset: elementcounter;
+    }
+</style>

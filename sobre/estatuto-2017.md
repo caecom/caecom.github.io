@@ -6,29 +6,8 @@ date: 2017-11-29
 comments: false
 ---
 
-<style type="text/css">
-    counter-reset: elementcounter;
-    /* ol { list-style-type: decimal; } */
-  
-    ol, li {
-        list-style-type: none;
-    }
+{% include law_style.html %}
 
-    div > ol > li:before {
-        content: "Art. " counter(elementcounter) "º. ";
-        counter-increment: elementcounter;
-        font-weight: bold;
-    }
-
-    div > ol { list-style-type: none }
-
-    div > ol ol { list-style-type: upper-roman; }
-
-    div > ol ol ol { list-style-type: lower-roman; }  
-    div {
-        counter-reset: elementcounter;
-    }
-</style>
 
 Estatuto do CAECOM-UNIVASF homologado em Assembléia Geral Discente no dia 29 de novembro de 2017 às 13:00h no anfiteatro do Bloco dos Colegiados do campus Juazeiro da UNIVASF.
 
