@@ -15,9 +15,19 @@ Nesta página está apresentado um histórico de gestões do CAECOM.
 * Vai ser substituído pelo Sumário, excluindo os cabeçalhos com .no_toc
 {:toc}
 
-## (2018-02-06 até o presente) Lovelace-Turing
+## (2019-06-20 até o presente) Margaret Hamilton
 
-Os integrantes da Gestão Lovelace-Turing do CAECOM, atuais representantes, são:
+Os integrantes da Gestão Margaret Hamilton do CAECOM, atuais representantes, são:
+
+* ANÍSIO PEREIRA BATISTA FILHO
+* EDJAIR AGUIAR GOMES FILHO
+* JORGE LUCAS BARBOSA MARQUES
+* JOSÉ WESLLES DA CRUZ SOUZA
+* LARISSA ALMEIDA ROCHA
+* MARIA CAROLINA LINS NUNES
+
+
+## (2018-02-06 até 2019-06-19) Lovelace-Turing
 
 * EDJAIR AGUIAR GOMES FILHO
 * JACKSON GONÇALVES DE SOUZA
