@@ -35,7 +35,11 @@
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
 #linkedin:          username
 #xing:              username
-#instagram:          username
+- instagram:
+  title: Instagram
+  description: Profile Instagram Caecom
+  url: https://www.instagram.com/caecom.univasf/
+  icon: fab fa-fw fa-instagram
 #lastfm:            username
 #tumblr:            username
 #medium:            '@username'
