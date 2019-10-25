@@ -120,14 +120,10 @@ img {
 
 .img-circle {
 	border-radius: 50%;
-	max-height: 120px;
-  max-width: 120px;
+	max-height: 100px;
+  max-width: 100px;
   height: auto;
   width: 15vw;
-  @media #{$small} {
-    height: 100px !important;
-    width: 100px !important;
-  }
 }
 
 .img-text-logo {
