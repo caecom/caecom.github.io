@@ -133,10 +133,7 @@ img {
 .img-text-logo {
   height: auto;
   width: 40vw;
-  max-width: 350px;
-  @media #{$small} {
-    display: none !important;
-  }
+  max-width: 320px;
   display: inline-block;
   position: relative;
   vertical-align: middle;
